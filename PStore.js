@@ -45,7 +45,7 @@ fetch("https://dummyjson.com/products")
       const productBrand = product.brand;
       const productCategory = product.category;
 
-      cas_stock.href = "../ProductPage/product.html";
+      cas_stock.href = "product.html";
 
       cas_stock.appendChild(img_stock);
       cas_stock.appendChild(category_stock);
@@ -94,7 +94,7 @@ fetch("https://dummyjson.com/products")
       price2_promo.textContent = "-" + product.discountPercentage + " %"
       price2_stock.textContent = "$ " + (product.price * (1 - product.discountPercentage / 100)).toFixed(2);
 
-      cas2_stock.href = "../ProductPage/product.html";
+      cas2_stock.href = "product.html";
 
       const both = document.createElement("div")
       both.className = "both"
