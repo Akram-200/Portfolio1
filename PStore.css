@@ -1,0 +1,279 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+.dfghjklmù{
+  /*  5fif  */
+  font-family: 'Noto Sans KR', sans-serif;
+  /*  ghlid  */
+  font-family: 'Young Serif', serif;
+}
+
+.top-bar{
+  text-align: center;
+}
+
+.promo{
+  background-color: #FB4570;
+  font-family: 'Noto Sans KR', sans-serif;
+  color: white;
+  height: fit-content;
+  padding: 1px 5px;
+}
+.logo{
+  font-family: 'Young Serif', serif;
+  padding: 10px 0;
+  border-bottom: 1px solid #000;
+}
+
+.theFour {
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 5px 0;
+  border-top: 1px solid #000;
+  z-index: 999;
+}
+
+.theFour img {
+  width: 30px;
+}
+
+.firstChallenge {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  height: fit-content;
+}
+
+.bigImgs {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.firstImg{
+  flex: 106.2% 0 0;
+  height: fit-content;
+  position: relative;
+}
+
+.firstImg img {
+  width: 100%;
+  height: 40vh;
+  object-fit: cover;
+  object-position: center;
+}
+
+.firstImg p{
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  top: 40%;
+  z-index: 1;
+  text-align: center;
+  text-shadow: 2px 2px 2px #000;
+}
+
+.firstChallenge .arrows{
+  width: 50px;
+}
+
+.firstChallenge .left{
+  width: 40px;
+  rotate: 180deg;
+  position: absolute;
+  top: 40%;
+  left: 0;
+}
+
+.firstChallenge .right{
+  width: 40px;
+  position: absolute;
+  top: 40%;
+  right: 0;
+}
+
+.popularP{
+  position: relative;
+  overflow: hidden;
+}
+
+.h1{
+  font-family: 'Young Serif', serif;
+  margin-left: 5px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.photos{
+  display: flex;
+  margin-left: 20px;
+  transition: transform 0.5s ease;
+}
+
+.cas_stock{
+  margin-right: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+  border: 1px solid #000;
+}
+
+.category_stock{
+  margin-left: 10px;
+}
+
+.both{
+  display: flex;
+  justify-content: space-between;
+}
+
+.price_stock{
+  margin-left: 10px;
+}
+
+.price_promo{
+  color: green;
+  margin-right: 10px;
+}
+
+.arrow{
+  border-radius: 500px;
+}
+
+.arrow .left-arrow{
+  background-color: rgba(211, 211, 211, 0.468);
+  width: 40px;
+  rotate: 180deg;
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  padding: 5px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.arrow .right-arrow{
+  background-color: rgba(211, 211, 211, 0.468);
+  width: 40px;
+  position: absolute;
+  top: 40%;
+  left: 85%;
+  padding: 5px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.photos2{
+  display: flex;
+  margin-left: 20px;
+  transition: transform 0.5s ease ;
+}
+
+.arrow .left-arrows{
+  background-color: rgba(211, 211, 211, 0.468);
+  width: 40px;
+  rotate: 180deg;
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  padding: 5px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.arrow .right-arrows{
+  background-color: rgba(211, 211, 211, 0.468);
+  width: 40px;
+  position: absolute;
+  top: 40%;
+  left: 85%;
+  padding: 5px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.img_stock{
+  width: 200px;
+  height: 150px;
+  background-position: center;
+  background-size: cover;
+}
+
+.FAQ h1 {
+  margin-top: 20px;
+  color: #333;
+  margin-left: 5px;
+}
+
+.faq-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid #333;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.faq-item {
+  margin: 20px 0;
+}
+
+.faq-question {
+  font-weight: bold;
+}
+
+.faq-answer {
+  margin-top: 10px;
+  display: none;
+}
+
+.last-part{
+  background-color: #333;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-around;
+  padding-bottom: 70px;
+}
+
+.last1-div{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.last2-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.last-part a{
+  text-decoration: none;
+  color: aliceblue;
+  margin-top: 10px;
+}
+
+.last-part p{
+  color: aliceblue;
+}
+
+.last-part img{
+  width: 25px;
+  margin-left: 10px;
+}
+
+.abc{
+  text-align: center;
+}

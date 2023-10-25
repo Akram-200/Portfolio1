@@ -1,0 +1,198 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans KR', sans-serif;
+  margin-bottom: 50px;
+}
+
+.dfghjklmù{
+  /*  5fif  */
+  font-family: 'Noto Sans KR', sans-serif;
+  /*  ghlid  */
+  font-family: 'Young Serif', serif;
+}
+
+.stockIMGS{
+  width: 100%;
+  margin: 15px 0;
+  text-align: center;
+}
+
+.stockIMG{
+  width: 300px;
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+.imgs{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.imgs img{
+  width: 70px;
+  height: 70px;
+  border-radius: 15px;
+}
+
+.productTitle{
+  font-family: 'Young Serif', serif;
+  font-size: 20px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+.productDescription{
+  margin-left: 5px;
+  margin-top: 0;
+}
+
+.productStock{
+  margin-left: 5px;
+}
+
+.productPromo{
+  margin-left: 5px;
+  color: green;
+}
+
+.Items{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.HAGS{
+  background-color: rgb(222, 235, 239);
+  border: 1px solid rgb(3, 103, 136);
+  margin-top: 20px;
+  padding-top: 10px;
+}
+
+.PUpDown{
+  background-color: lightblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-left: 5px;
+  border: 1px solid #000;
+  height: 50px;
+}
+
+.Item{
+  background-color: white;
+  padding: 5px 10px;
+  border: 1px solid #000;
+}
+
+.UpDown{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.incrementButton{
+  margin-bottom: 5px;
+  background-color: white;
+  border: 1px solid #000;
+}
+
+.decrementButton{
+  background-color: white;
+  border: 1px solid #000;
+}
+
+.Up{
+  transform: rotate(180deg);
+  width: 10px;
+}
+
+.Down{
+  width: 10px;
+}
+
+.HAG{
+  position: relative;
+}
+
+.delete-button{
+  background-color: rgb(247, 88, 88);
+  border: 0;
+  border-radius: 30px;
+  padding: 10px 20px;
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  right: 20px;
+}
+
+
+.save{
+  text-align: center;
+  margin: 10px 0;
+}
+
+.saveB{
+  background-color: rgb(50, 167, 206);
+  border: 0;
+  padding: 5px 30px;
+  color: white;
+  font-size: 15px;
+}
+
+.product{
+  margin-top: 30px;
+}
+
+.product img{
+  width: 100%;
+}
+
+.product h1{
+  font-family: 'Young Serif', serif;
+}
+
+.product p{
+  font-family: 'Noto Sans KR', sans-serif;
+  display: inline-block;
+}
+
+.productPrice{
+  margin-left: 10px;
+}
+
+.productItem{
+  color: rgb(34, 101, 160);
+  margin-left: 15px;
+}
+
+.product a{
+  text-decoration: none;
+  color: #4c4c4c;
+  font-family: 'Noto Sans KR', sans-serif;
+  display: block;
+  margin-left: 10px;
+}
+
+
+
+
+.theFour {
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 5px 0;
+  border-top: 1px solid #000;
+  z-index: 999;
+}
+
+.theFour img {
+  width: 30px;
+}
