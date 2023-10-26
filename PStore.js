@@ -223,7 +223,7 @@ bigImgs.addEventListener("mouseenter", () => {
 
 // Resume auto-slide when not hovering
 bigImgs.addEventListener("mouseleave", () => {
-  autoSlideInterval = setInterval(autoSlide, 2000);
+  autoSlideInterval = setInterval(autoSlide, 4000);
 });
 
 
