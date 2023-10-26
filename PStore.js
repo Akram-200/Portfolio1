@@ -214,7 +214,7 @@ function autoSlide() {
 }
 
 // Set interval for automatic sliding every 2 seconds (2000 milliseconds)
-const autoSlideInterval = setInterval(autoSlide, 2000);
+const autoSlideInterval = setInterval(autoSlide, 4000);
 
 // Stop auto-slide when hovering
 bigImgs.addEventListener("mouseenter", () => {
